@@ -21,12 +21,23 @@ export default function Home() {
       caption:
         "Some sourdough bread I baked. Delicious for toast, but I like using it for french toast once it's gone stale",
     },
+    {
+      id: 4,
+      url: '/images/4.JPEG',
+      caption: 'Chicken parm. This is my wifes favorite dish.',
+    },
+    {
+      id: 5,
+      url: '/images/5.JPEG',
+      caption:
+        "Hard to see all the ingredients, so I'll list them: chicken, salami, pesto, tomato, mozzarella, and balsamic glaze. Bonus Lucy in the background",
+    },
   ];
 
   return (
-    <div className="max-h-screen">
+    <div className="max-h-screen ">
       <div className="flex min-h-screen justify-center">
-        <div className="w-full">
+        <div className="w-full max-w-screen-xl">
           <Slide>
             {images.map((image) => (
               <div key={image.id} className="min-h-screen">
@@ -42,7 +53,7 @@ export default function Home() {
                     alt=""
                     quality={95}
                   />
-                  <div className="mt-4 h-full text-center text-white">
+                  <div className="mt-4 h-full px-4 text-center text-white">
                     {image.caption}
                   </div>
                 </div>
