@@ -30,7 +30,7 @@ export default function Home() {
       id: 5,
       url: '/images/5.JPEG',
       caption:
-        "Hard to see all the ingredients, so I'll list them: chicken, salami, pesto, tomato, mozzarella, and balsamic glaze. Bonus Lucy in the background",
+        "Hard to see all the ingredients, so I'll list them: chicken, salami, tomato, mozzarella, mayo, pesto, and balsamic glaze. Bonus Lucy in the background",
     },
   ];
 
