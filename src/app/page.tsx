@@ -24,7 +24,7 @@ export default function Home() {
     {
       id: 4,
       url: '/images/4.JPEG',
-      caption: 'Chicken parm. This is my wifes favorite dish.',
+      caption: "Chicken parm. This is my wife's favorite dish.",
     },
     {
       id: 5,
