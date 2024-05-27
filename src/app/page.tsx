@@ -8,7 +8,7 @@ export default function Home() {
     {
       id: 1,
       url: '/images/1.JPEG',
-      caption: 'Meeting Minnie Mouse ona  recent trip to Disneyland',
+      caption: 'Meeting Minnie Mouse on a recent trip to Disneyland',
     },
     {
       id: 2,
